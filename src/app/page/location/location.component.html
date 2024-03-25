@@ -1,0 +1,40 @@
+<div class="row mt-5">
+  <div class="col-lg-12 mt-lg-0">
+    <div class="text-label d-flex justify-content-center">
+      Nhà Trai
+    </div>
+    <div class="d-flex justify-content-center">
+      <img src="assets/images/groom.JPG" alt="location" class="rounded-circle avatar">
+    </div>
+    <div class="mt-4">
+      <div class="text-header main-color">Địa chỉ:</div>
+      <div>
+        <a target="_blank" class="phone-header" href="https://www.google.com/maps/place/To+Hieu+Nursery+School/@20.8055088,105.8855208,18.99z/data=!4m14!1m7!3m6!1s0x3135b6ba55555555:0x1e5a902c0a082111!2sTo+Hieu+Nursery+School!8m2!3d20.8057156!4d105.8860436!16s%2Fg%2F1pzvxj6c1!3m5!1s0x3135b6ba55555555:0x1e5a902c0a082111!8m2!3d20.8057156!4d105.8860436!16s%2Fg%2F1pzvxj6c1?entry=ttu">
+          <i class="bi bi-house-heart me-2"></i>
+          <span>Trường Mầm Non Xã Tô Hiệu, Huyện Thường Tín, Hà Nội</span>
+        </a>
+      </div>
+      <div class="text-header mt-3 main-color">Thời gian:</div>
+      <div>
+        <a class="phone-header">
+          <i class="bi bi-watch me-2"></i>
+          <span>Thứ Bảy, ngày 30 tháng 03 năm 2024, 10:00</span>
+        </a>
+      </div>
+      <div class="text-header mt-3 main-color">Điện thoại:</div>
+      <div>
+        <a href="tel:0984035460" class="phone-header">
+          <i class="bi bi-telephone-fill me-2"></i>
+          <span>0984 035 460</span>
+        </a>
+      </div>
+    </div>
+    <div class="text-header mt-3"><i class="bi bi-map me-2"></i><span class="main-color">Bản đồ</span></div>
+    <div class="location mt-3">
+      <google-map [options]="optionsGroom" #map_groom>
+        <map-marker [label]="{text: 'Nhà Trai', color: '#474747', fontWeight: 'bold', fontSize: '18px'}" [position]="{lat: 20.805772754183103, lng: 105.88610436606899}">
+        </map-marker>
+      </google-map>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+.text-homepage {
+  color: #E0BDB6;
+  font-family: cormorant upright, serif;
+  font-size: 2.6rem;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.text-date {
+  color: #A28E84;
+  font-family: Rozha One, sans-serif;
+  font-size: 70px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.more-info:hover {
+  color: #E0BDB6;
+  cursor: pointer;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #E0BDB6;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.upload-image:hover {
+  color: #E0BDB6;
+  cursor: pointer;
+}
